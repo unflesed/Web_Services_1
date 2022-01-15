@@ -8,6 +8,9 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="passenger"/>
             <xs:enumeration value="agricultural"/>
+            <xs:enumeration value="cargo"/>
+            <xs:enumeration value="post"/>
+            <xs:enumeration value="firefighting"/>
           </xs:restriction>
         </xs:simpleType>
       </xs:element>
