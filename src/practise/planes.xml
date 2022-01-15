@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<planes>
+    <plane id = "1">
+        <model>Boeing 747</model>
+        <origin>USA</origin>
+        <Chars>
+            <type>passenger</type>
+            <crew>7</crew>
+            <characteristics>200</characteristics>
+            <radar>true</radar>
+        </Chars>
+        <parameters>
+            <length>50</length>
+            <width>30</width>
+            <height>5</height>
+        </parameters>
+        <price currency = "T">1000000</price>
+    </plane>
+    <plane id = "2">
+        <model>Kukuruznik</model>
+        <origin>USSR</origin>
+        <Chars>
+            <type>agricultural</type>
+            <crew>1</crew>
+            <characteristics>3</characteristics>
+            <radar>false</radar>
+        </Chars>
+        <parameters>
+            <length>10</length>
+            <width>5</width>
+            <height>3</height>
+        </parameters>
+        <price currency = "T">10000</price>
+    </plane>
+    <plane id = "3">
+        <model>AirBus</model>
+        <origin>USA</origin>
+        <Chars>
+            <type>passenger</type>
+            <crew>6</crew>
+            <characteristics>220</characteristics>
+            <radar>true</radar>
+        </Chars>
+        <parameters>
+            <length>60</length>
+            <width>35</width>
+            <height>5</height>
+        </parameters>
+        <price currency = "T">1100000</price>
+    </plane>
+</planes>
