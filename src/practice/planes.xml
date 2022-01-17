@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<planes>
+<planes xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation = "planes.xsd">
     <plane id = "1">
         <model>Boeing 747</model>
         <origin>USA</origin>
